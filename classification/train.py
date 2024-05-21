@@ -15,7 +15,7 @@ from utils import train_one_epoch, evaluate, create_lr_scheduler, read_train_dat
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', default='ghostnetv2_06',
+    parser.add_argument('--model', default='LWGANet_L0',
                         help='LWGANet_L0            | LWGANet_L1            | LWGANet_L2'
                              'mobilenet_v2_10       | mobilenet_v2_20       | mobilenet_v2_25'
                              'efficientformerv2_s0  | efficientformerv2_s1  | efficientformerv2_s2'
