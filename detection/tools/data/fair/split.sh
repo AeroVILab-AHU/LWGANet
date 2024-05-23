@@ -1,1 +1,0 @@
-python img_split.py --base-json split_configs/ms_train.json

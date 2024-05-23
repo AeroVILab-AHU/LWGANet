@@ -1,5 +1,0 @@
-# These must be installed before building mmrotate
-cython
-numpy
-antialiased-cnns
-
