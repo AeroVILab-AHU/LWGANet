@@ -1,0 +1,26 @@
+{
+  "nproc": 10,
+  "img_ann_dirs": "data/FAIR1M_1.0/test/",
+  "sizes": [
+    1024
+  ],
+  "gaps": [
+    500
+  ],
+  "rates": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "img_rate_thr": 0.6,
+  "iof_thr": 0.7,
+  "no_padding": false,
+  "padding_value": [
+    104,
+    116,
+    124
+  ],
+  "converted_dota_dir":"data/fair1m/test/",
+  "save_dir": "data/fair1m/test/",
+  "save_ext": ".png"
+}
