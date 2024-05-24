@@ -40,12 +40,9 @@ class DRFD(nn.Module):
         # Gconv
         x = self.conv(x)  # x = [B, 2C, H, W]
 
-        # 最大池化下采样
         max = self.batch_norm_m(self.max_m(x))                  # m = [B, 2C, H/2, W/2]
-        # 卷积下采样
         conv = self.batch_norm_c(self.act_c(self.conv_c(x)))    # c = [B, 2C, H/2, W/2]
 
-        # 拼接
         x = torch.cat([conv, max], dim=1)                       # x = [B, 2C+2C, H/2, W/2]  -->  [B, 4C, H/2, W/2]
         x = self.fusion(x)                                      # x = [B, 4C, H/2, W/2]     -->  [B, 2C, H/2, W/2]
 
