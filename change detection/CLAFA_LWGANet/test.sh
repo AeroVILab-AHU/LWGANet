@@ -1,4 +1,4 @@
-CUDA_VISIBLE_DEVICES=0 python test.py --dataset LEVIR_256_split --checkpoint_dir ./checkpoints/resnet18d/LEVIR_e200
+CUDA_VISIBLE_DEVICES=0 python test.py --dataset LEVIR_256_split --checkpoint_dir ./checkpoints/LEVIR_e200
 
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset WHU_256         --checkpoint_dir ./checkpoints/WHU_256_e200
 
