@@ -16,10 +16,10 @@ This repository is the official implementation of "LWGANet: A Lightweight Group 
 
 ## Results and models
 
-Imagenet 300-epoch pre-trained LWGANet-L0 backbone: [Download](https)
+Imagenet 300-epoch pre-trained LWGANet-L0 backbone: [Download](https://github.com/lwCVer/LWGANet/releases/download/weights/lwganet_l0_e299.pth)
 
-Imagenet 300-epoch pre-trained LWGANet-L1 backbone: [Download](https)
+Imagenet 300-epoch pre-trained LWGANet-L1 backbone: [Download](https://github.com/lwCVer/LWGANet/releases/download/weights/lwganet_l1_e299.pth)
 
-Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https)
+Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.com/lwCVer/LWGANet/releases/download/weights/lwganet_l2_e296.pth)
 
 ## Get Started
