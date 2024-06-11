@@ -9,13 +9,14 @@ model = dict(
     type='OrientedRCNN',
     backbone=dict(
         type='LWGANet',
-        embed_dim=96,
+        stem_dim=96,
         depths=(1, 4, 4, 2),
         att_kernel=(11, 11, 11, 11),
+        norm_layer=dict(type='SyncBN', requires_grad=True),
         fork_feat=True,
         drop_path_rate=0.1,
         init_cfg=dict(type='Pretrained',
-checkpoint="/detection/backbone_weights/lwganet_l2_e299.pth"),
+                      checkpoint="/mnt/disk2/lw/LWGA/Code/detection/backbone_weights/lwganet_l2_e296.pth"),
         pretrained=None),
     neck=dict(
         type='FPN',
