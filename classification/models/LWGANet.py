@@ -482,7 +482,7 @@ class LWGANet(nn.Module):
 
     def forward_det(self, x: Tensor) -> Tensor:
         # output the features of four stages for dense prediction
-        x = self.patch_embed(x)
+        x = self.Stem(x)
         outs = []
         for idx, stage in enumerate(self.stages):
             x = stage(x)
