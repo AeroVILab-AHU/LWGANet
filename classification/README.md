@@ -20,9 +20,9 @@ class="center">
 
 
 
-## Get Started
+# Get Started
 
-### 1. Dependency
+## Dependency
 Create an new conda virtual environment
 ```
 conda create -n LWGANet python=3.9 -y
@@ -36,7 +36,7 @@ cd LWGANet/classification/
 pip install -r requirements.txt
 ```
 
-### 2. Dataset
+## Dataset
 
 You can download our already sliced datasets (
 [NWPU-RESISC45](https://pan.baidu.com/s/1_HRh9mpuWGpT2FhG_Fmokw?pwd=CV21),  [AID](https://pan.baidu.com/s/1-4vtpBianvueNJSQ395p2w?pwd=CV21) and [UCM](https://pan.baidu.com/s/1u5a6Z5d-awX133WJcl-Gkw?pwd=CV21) datasets.  
@@ -56,14 +56,14 @@ password: CV21), or download the classification datasets from the official docum
 ```
 
 
-### 3. Training
+## Training
 
 ```
 sh train_all.sh
 ```
 
 
-### 4. Results
+## Results
 
 ----
 
