@@ -1,10 +1,3 @@
-## Version 2.0 (stable)
-
-- I have updated this repo to pytorch 2.0 and pytorch-lightning 2.0, support multi-gpu training, etc. 
-- [UNetFormer](https://www.sciencedirect.com/science/article/pii/S0924271622001654) (accepted by ISPRS, [PDF](https://www.researchgate.net/profile/Libo-Wang-17/publication/361736439_UNetFormer_A_UNet-like_transformer_for_efficient_semantic_segmentation_of_remote_sensing_urban_scene_imagery/links/62c2a1ed1cbf3a1d12ac1c87/UNetFormer-A-UNet-like-transformer-for-efficient-semantic-segmentation-of-remote-sensing-urban-scene-imagery.pdf)) and **UAVid dataset** are supported.
-- More networks are updated and the link of pretrained weights is provided.
-- **config/loveda/dcswin.py** provides a detailed explain about **config** setting.
-
 
 ## Introduction
 
@@ -31,57 +24,8 @@ which mainly focuses on developing advanced Vision Transformers for remote sensi
 - Multi-scale Training and Testing
 - Inference on Huge Remote Sensing Images
 
-## Supported Networks
 
-- Vision Transformer
-
-  - [UNetFormer](https://authors.elsevier.com/a/1fIji3I9x1j9Fs) 
-  - [DC-Swin](https://ieeexplore.ieee.org/abstract/document/9681903)
-  - [BANet](https://www.mdpi.com/2072-4292/13/16/3065)
-  
-- CNN
- 
-  - [MANet](https://ieeexplore.ieee.org/abstract/document/9487010) 
-  - [ABCNet](https://www.sciencedirect.com/science/article/pii/S0924271621002379)
-  - [A2FPN](https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2030071)
-  
-## Folder Structure
-
-Prepare the following folders to organize this repo:
-```none
-airs
-├── GeoSeg (code)
-├── pretrain_weights (pretrained weights of backbones, such as vit, swin, etc)
-├── model_weights (save the model weights trained on UAVid, LoveDA, etc)
-├── fig_results (save the masks predicted by models)
-├── lightning_logs (CSV format training logs)
-├── data
-│   ├── LoveDA
-│   │   ├── Train
-│   │   │   ├── Urban
-│   │   │   │   ├── images_png (original images)
-│   │   │   │   ├── masks_png (original masks)
-│   │   │   │   ├── masks_png_convert (converted masks used for training)
-│   │   │   │   ├── masks_png_convert_rgb (original rgb format masks)
-│   │   │   ├── Rural
-│   │   │   │   ├── images_png 
-│   │   │   │   ├── masks_png 
-│   │   │   │   ├── masks_png_convert
-│   │   │   │   ├── masks_png_convert_rgb
-│   │   ├── Val (the same with Train)
-│   │   ├── Test
-│   │   ├── train_val (Merge Train and Val)
-│   ├── uavid
-│   │   ├── uavid_train (original)
-│   │   ├── uavid_val (original)
-│   │   ├── uavid_test (original)
-│   │   ├── uavid_train_val (Merge uavid_train and uavid_val)
-│   │   ├── train (processed)
-│   │   ├── val (processed)
-│   │   ├── train_val (processed)
-```
-
-## Install
+## Dependency
 
 Open the folder **airs** using **Linux Terminal** and create python environment:
 ```
@@ -100,7 +44,7 @@ Imagenet 300-epoch pre-trained LWGANet-L1 backbone: [Download](https://github.co
 
 Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.com/lwCVer/LWGANet/releases/download/weights/lwganet_l2_e296.pth)
 
-## Data Preprocessing
+## Dataset_Preprocessing
 
 Download the datasets from the official website and split them yourself.
 
@@ -193,6 +137,8 @@ python inference_uavid.py \
 If you find this project useful in your research, please consider citing：
 
 - [UNetFormer: A UNet-like transformer for efficient semantic segmentation of remote sensing urban scene imagery](https://authors.elsevier.com/a/1fIji3I9x1j9Fs)
+
+- [LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks](https://arxiv.org/abs/2501.10040)
 
 
 
