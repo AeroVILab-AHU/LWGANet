@@ -1,16 +1,22 @@
+# LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks
 
-![lwganet_arch](docs/lwganet.png)
+This is the official Pytorch/Pytorch implementation of the paper: <br/>
+> **LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks**
+>
+> Wei Lu, Si-Bao Chen*, Chris H. Q. Ding, Jin Tang, and Bin Luo, Senior Member, IEEE 
+> 
+>  *IEEE Transactions on Image Processing (TIP), In peer review.* [arXiv](https://arxiv.org/abs/2501.10040)
+> 
 
-## This repository is the official implementation of "LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks".
-## Abstract
-Remote sensing (RS) image recognition has garnered increasing attention in recent years, yet it encounters several challenges. One major issue is the presence of multiple targets with large-scale variations within a single image, posing a difficulty in feature extraction. Research suggests that methods employing dual-branch or multi-branch structures can effectively adapt to large-scale variations in RS targets, thus enhancing accuracy. However, these structures lead to an increase in parameters and computational load, which complicates RS visual tasks. Present lightweight backbone networks for natural images struggle to adeptly extract features of multi-scale targets simultaneously, which impacts their performance in RS visual tasks. To tackle this challenge, this article introduces a lightweight group attention (LWGA) module tailored for RS images. LWGA module efficiently utilizes redundant features to extract local, medium-range, and global information without inflating the input feature dimensions, to efficiently extract features of multi-scale targets in a lightweight setting. The backbone network built on the LWGA module, named LWGANet, was validated across twelve datasets covering four mainstream RS visual tasks: classification, detection, segmentation, and change detection. Experimental results demonstrate that LWGANet, as a lightweight backbone network, exhibits broad applicability, achieving an optimal balance between performance and latency. State-of-the-art performance was achieved in multiple datasets. LWGANet presents a novel solution for resource-constrained devices in RS visual tasks, with its innovative LWGA structure offering valuable insights for the development of lightweight networks.
+----
 
-## Introduction
+<p align="center"> 
+<img src="../figures/LWGANet.png" width=100% 
+class="center">
+<p align="center">  Illustration of LWGANet architecture.
+</p> 
 
-The master branch is built on MMRotate which works with **PyTorch 1.6+**.
-
-LWGANet backbone code is placed under mmrotate/models/backbones/, and the train/test configure files are placed under configs/lwganet/ 
-
+----
 
 ## Results and models
 
@@ -31,7 +37,7 @@ DOTA1.5
 
 |         Model         |  mAP  | Angle | training mode | Batch Size |                                             Configs                                              |                                                     Download                                                     |
 | :----------------------: |:-----:| :---: |---| :------: |:------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
-| LWGANet_L2 (1024,1024,200) | 71.72 | le90  | single-scale |    2\*4     | [lwganet_l2_fpn_30e_dota15_ss_le90](./configs/lsknet/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.py) | [model](https://github.com/lwCVer/LWGANet/releases/download/weights/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.pth) |
+| LWGANet_L2 (1024,1024,200) | 71.72 | le90  | single-scale |    2\*4     | [lwganet_l2_fpn_30e_dota15_ss_le90](./configs/lwganet/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.py) | [model](https://github.com/lwCVer/LWGANet/releases/download/weights/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.pth) |
 
 DIOR-R 
 
@@ -39,7 +45,7 @@ DIOR-R
 | :------------------------------------------: |:-----:| :--------: |
 |                   LWGANet_L2                   | 68.53 |    1\*8    |
 
-## Installation
+## Dependency
 
 MMRotate depends on [PyTorch](https://pytorch.org/), [MMCV](https://github.com/open-mmlab/mmcv) and [MMDetection](https://github.com/open-mmlab/mmdetection).
 Below are quick steps for installation.
@@ -52,8 +58,8 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
 pip install -U openmim
 mim install mmcv-full
 mim install mmdet
-# git clone https://github.com/open-mmlab/mmrotate.git
-# cd mmrotate
+git clone https://github.com/lwCVer/LWGANet
+cd LWGANet/detection
 pip install -v -e .
 ```
 
