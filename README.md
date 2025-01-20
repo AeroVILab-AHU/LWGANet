@@ -47,8 +47,7 @@ Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.co
 ### [Object Detection](./detection/README.md)
 
 - [Dependency Setup](./detection/README.md#Dependency)
-- [Dataset Preparation](./detection/README.md#Dataset)
-- [Training Steps](./detection/README.md#Training)
+- [Training Steps](./detection/docs/en/get_started.md)
 - [Experimental Results](./detection/README.md#Results)
 
 ----
