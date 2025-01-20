@@ -81,7 +81,7 @@ If you have any questions about this work, you can contact me. Email: 2858191255
 Your star is the power that keeps us updating github.
 
 ## Citation
-If you find this repository helpful, please consider citing:
+If LWGANet is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
 ```
 @article{lu2025lwganet,
   title={LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks},
