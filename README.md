@@ -84,10 +84,9 @@ If LWGANet is useful or relevant to your research, please kindly recognize our c
 ```
 @article{lu2025lwganet,
   title={LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks},
-  author={Lu, Wei and Chen, Si-Bao and Ding, Chris H. Q. and Tang, Jin and Luo, Bin},
-  journal={arXiv},
-  year = {2025},
-  pages = {}
+  author={Lu, Wei and Chen, Si-Bao and Ding, Chris HQ and Tang, Jin and Luo, Bin},
+  journal={arXiv preprint arXiv:2501.10040},
+  year={2025}
 }
 ```
 
