@@ -72,7 +72,7 @@ Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.co
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lwCVer/LWGANet&type=Timeline)](https://star-history.com/#lwCVer/LWGANet&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=lwCVer/LWGANet&type=Date)](https://star-history.com/#lwCVer/LWGANet&Date)
 
 ## Acknowledgement
 This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models), [mmrotate](https://github.com/open-mmlab/mmrotate),   [unetformer](https://github.com/WangLibo1995/GeoSeg), [A2Net](https://github.com/guanyuezhen/A2Net), and [CLAFA](https://github.com/xingronaldo/CLAFA) repositories.
