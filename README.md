@@ -8,8 +8,6 @@ This is the official Pytorch/Pytorch implementation of the paper: <br/>
 >  *IEEE Transactions on Image Processing (TIP), In peer review.* [arXiv](https://arxiv.org/abs/2501.10040)
 > 
 
-----
-
 
 ----
 
