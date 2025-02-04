@@ -19,6 +19,16 @@ class="center">
 
 ----
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/change-detection-on-whu-cd)](https://paperswithcode.com/sota/change-detection-on-whu-cd?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/image-classification-on-resisc45)](https://paperswithcode.com/sota/image-classification-on-resisc45?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/oriented-object-detection-on-dota-1-5)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-5?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/semantic-segmentation-on-uavid)](https://paperswithcode.com/sota/semantic-segmentation-on-uavid?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/object-detection-in-aerial-images-on-dior-r)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dior-r?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/oriented-object-detection-on-dota-1-0)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-0?p=lwganet-a-lightweight-group-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/semantic-segmentation-on-loveda)](https://paperswithcode.com/sota/semantic-segmentation-on-loveda?p=lwganet-a-lightweight-group-attention)
+
+
 
 <details>
   <summary>
