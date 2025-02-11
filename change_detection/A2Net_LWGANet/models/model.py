@@ -342,7 +342,7 @@ class BaseNet_LWGANet_L0(nn.Module):
 class BaseNet_LWGANet_L2(nn.Module):
     def __init__(self, pretrained=True):
         super().__init__()
-        self.backbone = LWGANet.LWGANet_L2_1442_e96_k11_ReLU_drop01(pretrained=pretrained)
+        self.backbone = LWGANet.LWGANet_L2_1242_e96_k11_RELU(pretrained=pretrained)
         channles = [96, 96, 192, 384, 768]
         self.en_d = 32
         self.mid_d = self.en_d * 2

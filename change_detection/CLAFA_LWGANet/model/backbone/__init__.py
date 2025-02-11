@@ -1,1 +1,1 @@
-# from .LWGANet import LWGANet_L2_1442_e96_k11_ReLU_drop01
+# from .LWGANet import LWGANet_L2_1242_e96_k11_RELU
