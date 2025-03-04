@@ -10,6 +10,7 @@ from torch import Tensor
 import os
 import copy
 import antialiased_cnns
+from mmcv.cnn import build_norm_layer
 
 
 class DRFD(nn.Module):
@@ -494,6 +495,8 @@ def LWGANet_L0_1242_e32_k11_GELU(embed_dim=32, **kwargs):
                     embed_dim=embed_dim,
                     depths=(1, 2, 4, 2),
                     att_kernel=(11, 11, 11, 11),
+                    # norm_layer=dict(type='SyncBN', requires_grad=True),
+                    norm_layer=dict(type='BN', requires_grad=True),
                     drop_path_rate=0.,
                     fork_feat=True,
                     **kwargs)
@@ -515,7 +518,8 @@ def LWGANet_L1_1242_e64_k11_GELU_drop01(embed_dim=64, **kwargs):
                     stem_dim=embed_dim,
                     depths=(1, 2, 4, 2),
                     att_kernel=(11, 11, 11, 11),
-                    norm_layer=nn.BatchNorm2d,
+                    # norm_layer=dict(type='SyncBN', requires_grad=True),
+                    norm_layer=dict(type='BN', requires_grad=True),
                     act_layer=nn.GELU,
                     drop_path_rate=0.1,
                     fork_feat=True,
@@ -538,7 +542,8 @@ def LWGANet_L2_1442_e96_k11_ReLU(embed_dim=96, dropout=0.1, **kwargs):
                     stem_dim=embed_dim,
                     depths=(1, 4, 4, 2),
                     att_kernel=(11, 11, 11, 11),
-                    norm_layer=nn.BatchNorm2d,
+                    norm_layer=dict(type='BN', requires_grad=True),
+                    # norm_layer=dict(type='SyncBN', requires_grad=True),
                     drop_path_rate=0.1,
                     act_layer=nn.ReLU,
                     **kwargs)
