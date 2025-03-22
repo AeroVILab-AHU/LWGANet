@@ -107,4 +107,3 @@ If LWGANet is useful or relevant to your research, please kindly recognize our c
   year={2025}
 }
 ```
-111

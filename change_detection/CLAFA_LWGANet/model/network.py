@@ -8,7 +8,7 @@ from .block.vertical import VerticalFusion
 from .block.convs import ConvBnRelu, DsBnRelu
 from .util import init_method
 from .block.heads import FCNHead, GatedResidualUpHead
-from .backbone.lwganet import LWGANet_L2_1442_e96_k11_ReLU, LWGANet_L0_1242_e32_k11_GELU
+from .backbone.lwganet import LWGANet_L2_1242_e96_k11_RELU, LWGANet_L0_1242_e32_k11_GELU
 
 
 def get_backbone(backbone_name, dropout_rate):
@@ -19,7 +19,7 @@ def get_backbone(backbone_name, dropout_rate):
         backbone = timm.create_model('resnet18d', pretrained=True, features_only=True)
         backbone.channels = [64, 64, 128, 256, 512]
     elif backbone_name == 'lwganet_l2':
-        backbone = LWGANet_L2_1442_e96_k11_ReLU(pretrained=True, drop_path_rate=dropout_rate)
+        backbone = LWGANet_L2_1242_e96_k11_RELU(pretrained=True, drop_path_rate=dropout_rate)
         backbone.channels = [96, 192, 384, 768]
     elif backbone_name == 'lwganet_l0':
         backbone = LWGANet_L0_1242_e32_k11_GELU(pretrained=True, drop_path_rate=dropout_rate)
