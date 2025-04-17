@@ -499,7 +499,6 @@ def LWGANet_L0_1242_e32_k11_GELU(num_classes=2, stem_dim=32, pretrained=None, **
                     act_layer=nn.GELU,
                     drop_path_rate=0.0,
                     fork_feat=True,
-                    pretrained=pretrained,
                     **kwargs)
     if pretrained == True:
         checkpoint = torch.load('./backbone_weights/lwganet_l0_e298.pth',
@@ -526,7 +525,6 @@ def LWGANet_L1_1242_e64_k11_GELU(num_classes=2, stem_dim=64, pretrained=None, **
                     act_layer=nn.GELU,
                     drop_path_rate=0.0,
                     fork_feat=True,
-                    pretrained=pretrained,
                     **kwargs)
     if pretrained == True:
         checkpoint = torch.load('./backbone_weights/lwganet_l1.pth',
@@ -552,7 +550,6 @@ def LWGANet_L2_1242_e96_k11_RELU(num_classes=2, stem_dim=96, pretrained=None, **
                     act_layer=nn.ReLU,
                     drop_path_rate=0.1,
                     fork_feat=True,
-                    pretrained=pretrained,
                     **kwargs)
     if pretrained == True:
         checkpoint = torch.load('./backbone_weights/lwganet_l2.pth',
