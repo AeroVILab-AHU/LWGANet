@@ -509,6 +509,8 @@ def LWGANet_L0_1242_e32_k11_GELU(num_classes=2, stem_dim=32, pretrained=None, **
         state_dict = _state_dict
         missing_keys, unexpected_keys = model.load_state_dict(state_dict, False)
 
+        print('The weights are successfully loaded\n')
+
         # show for debug
         print('missing_keys: ', missing_keys)
         print('unexpected_keys: ', unexpected_keys)
@@ -535,6 +537,8 @@ def LWGANet_L1_1242_e64_k11_GELU(num_classes=2, stem_dim=64, pretrained=None, **
         state_dict = _state_dict
         missing_keys, unexpected_keys = model.load_state_dict(state_dict, False)
 
+        print('The weights are successfully loaded\n')
+
         # show for debug
         print('missing_keys: ', missing_keys)
         print('unexpected_keys: ', unexpected_keys)
@@ -560,6 +564,8 @@ def LWGANet_L2_1242_e96_k11_RELU(num_classes=2, stem_dim=96, pretrained=None, **
         _state_dict = checkpoint['model']
         state_dict = _state_dict
         missing_keys, unexpected_keys = model.load_state_dict(state_dict, False)
+
+        print('The weights are successfully loaded\n')
 
         # show for debug
         print('missing_keys: ', missing_keys)
