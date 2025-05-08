@@ -5,7 +5,7 @@ This is the official Pytorch/Pytorch implementation of the paper: <br/>
 >
 > Wei Lu, Si-Bao Chen*, Chris H. Q. Ding, Jin Tang, and Bin Luo, Senior Member, IEEE 
 > 
->  *IEEE Transactions on Image Processing (TIP), In peer review.* [arXiv](https://arxiv.org/abs/2501.10040)
+>  *In peer review.* [arXiv](https://arxiv.org/abs/2501.10040)
 > 
 
 
