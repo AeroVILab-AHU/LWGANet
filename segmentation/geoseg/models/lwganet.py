@@ -538,7 +538,7 @@ def LWGANet_L1_1242_e64_k11_GELU_drop01(embed_dim=64, **kwargs):
 @register_model
 def LWGANet_L2_1442_e96_k11_ReLU(embed_dim=96, dropout=0.1, **kwargs):
     model = LWGANet(in_chans=3,
-                    num_classes=num_classes,
+                    num_classes=3,
                     stem_dim=embed_dim,
                     depths=(1, 4, 4, 2),
                     att_kernel=(11, 11, 11, 11),
