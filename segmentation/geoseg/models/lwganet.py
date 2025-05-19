@@ -344,7 +344,7 @@ class LWGANet(nn.Module):
                  stem_norm=True,
                  feature_dim=1280,
                  drop_path_rate=0.1,
-                 fork_feat=False,
+                 fork_feat=True,
                  init_cfg=None,
                  pretrained=None,
                  **kwargs):
@@ -544,6 +544,7 @@ def LWGANet_L2_1442_e96_k11_ReLU(embed_dim=96, dropout=0.1, **kwargs):
                     norm_layer=dict(type='BN', requires_grad=True),
                     # norm_layer=dict(type='SyncBN', requires_grad=True),
                     drop_path_rate=0.1,
+                    fork_feat=True,
                     act_layer=nn.ReLU,
                     **kwargs)
     checkpoint = torch.load('./backbone_weights/lwganet_l2_e299.pth',
