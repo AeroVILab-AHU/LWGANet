@@ -77,12 +77,10 @@ Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.co
 
 ----
 
-### [Change Detection](./change_detection/README.md)
+### Change Detection
 
-- [Dependency Setup](./change_detection/README.md#Dependency)
-- [Dataset Preparation](./change_detection/README.md#Dataset)
-- [Training Steps](./change_detection/README.md#Training)
-- [Experimental Results](./change_detection/README.md#Results)
+- [A2Net_LWGANet](./change_detection/A2Net_LWGANet/README.md)
+- [CLAFA_LWGANet](./change_detection/CLAFA_LWGANet/README.md)
 
 ----
 
