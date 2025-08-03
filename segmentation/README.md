@@ -132,15 +132,6 @@ python inference_uavid.py \
 | UNetFormer  |   UAVid   |  11.7   | 46.9  |     67.8 |
 | LWGANet L2  |   UAVid   |  12.6   | 50.3  | **69.1** |
 
-## Citation
-
-If you find this project useful in your research, please consider citing：
-
-- [UNetFormer: A UNet-like transformer for efficient semantic segmentation of remote sensing urban scene imagery](https://authors.elsevier.com/a/1fIji3I9x1j9Fs)
-
-- [LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks](https://arxiv.org/abs/2501.10040)
-
-
 
 ## Acknowledgement
 

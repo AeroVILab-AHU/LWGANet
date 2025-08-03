@@ -1,13 +1,8 @@
-# LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks
+# LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention
 
 This is the official Pytorch/Pytorch implementation of the paper: <br/>
-> **LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks**
+> **LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention**
 >
-> Wei Lu, Si-Bao Chen*, Chris H. Q. Ding, Jin Tang, and Bin Luo, Senior Member, IEEE 
-> 
->  *IEEE Transactions on Image Processing (TIP), In peer review.* [arXiv](https://arxiv.org/abs/2501.10040)
-> 
-
 ----
 
 <p align="center"> 
@@ -30,14 +25,14 @@ DOTA1.0
 
 |           Model            |  mAP  | Angle | training mode | Batch Size |                                     Configs                                      |                                                              Download                                                               |
 |:--------------------------:|:-----:| :---: |---------------|:----------:|:--------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------:|
-| LWGANet_L2 (1024,1024,200) | 78.64 | le90  | single-scale  |    2\*4    | [lwganet_l2_fpn_30e_dota10_ss_le90](./configs/lwganet/ORCNN_LWGANet_L2_fpn_le90_dota10_ss_e30.py) |          [model](https://github.com/lwCVer/LWGANet/releases/download/weights/ORCNN_LWGANet_L2_fpn_le90_dota10_ss_e30.pth)           |
+| LWGANet_L2 (1024,1024,200) | 79.02 | le90  | single-scale  |    2\*4    | [lwganet_l2_fpn_30e_dota10_ss_le90](./configs/lwganet/ORCNN_LWGANet_L2_fpn_le90_dota10_ss_e30.py) |          [model](https://github.com/lwCVer/LWGANet/releases/download/weights/ORCNN_LWGANet_L2_fpn_le90_dota10_ss_e30.pth)           |
 
 
 DOTA1.5
 
 |         Model         |  mAP  | Angle | training mode | Batch Size |                                             Configs                                              |                                                     Download                                                     |
 | :----------------------: |:-----:| :---: |---| :------: |:------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
-| LWGANet_L2 (1024,1024,200) | 71.72 | le90  | single-scale |    2\*4     | [lwganet_l2_fpn_30e_dota15_ss_le90](./configs/lwganet/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.py) | [model](https://github.com/lwCVer/LWGANet/releases/download/weights/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.pth) |
+| LWGANet_L2 (1024,1024,200) | 72.91 | le90  | single-scale |    2\*4     | [lwganet_l2_fpn_30e_dota15_ss_le90](./configs/lwganet/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.py) | [model](https://github.com/lwCVer/LWGANet/releases/download/weights/ORCNN_LWGANet_L2_fpn_le90_dota15_ss_e30.pth) |
 
 DIOR-R 
 

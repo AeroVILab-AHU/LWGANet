@@ -1,13 +1,8 @@
-# LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks
+# LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention
 
 This is the official Pytorch/Pytorch implementation of the paper: <br/>
-> **LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks**
+> **LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention**
 >
-> Wei Lu, Si-Bao Chen*, Chris H. Q. Ding, Jin Tang, and Bin Luo, Senior Member, IEEE 
-> 
->  *In peer review.* [arXiv](https://arxiv.org/abs/2501.10040)
-> 
-
 
 ----
 
@@ -84,26 +79,9 @@ Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.co
 
 ----
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lwCVer/LWGANet&type=Date)](https://star-history.com/#lwCVer/LWGANet&Date)
-
 ## Acknowledgement
 This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models), [mmrotate](https://github.com/open-mmlab/mmrotate),   [unetformer](https://github.com/WangLibo1995/GeoSeg), [A2Net](https://github.com/guanyuezhen/A2Net), and [CLAFA](https://github.com/xingronaldo/CLAFA) repositories.
 
 If you have any questions about this work, you can contact me. 
 
-Email: [luwei_ahu@qq.com](mailto:luwei_ahu@qq.com); WeChat: lw2858191255.
-
 Your star is the power that keeps us updating github.
-
-## Citation
-If LWGANet is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
-```
-@article{lu2025lwganet,
-  title={LWGANet: A Lightweight Group Attention Backbone for Remote Sensing Visual Tasks},
-  author={Lu, Wei and Chen, Si-Bao and Ding, Chris HQ and Tang, Jin and Luo, Bin},
-  journal={arXiv preprint arXiv:2501.10040},
-  year={2025}
-}
-```
