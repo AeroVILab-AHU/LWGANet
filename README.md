@@ -3,6 +3,8 @@
 This is the official Pytorch/Pytorch implementation of the paper: <br/>
 > **LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention**
 >
+> Wei Lu, Xue Yang, Si-Bao Chen*
+>
 
 ----
 
@@ -14,14 +16,10 @@ class="center">
 
 ----
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/change-detection-on-whu-cd)](https://paperswithcode.com/sota/change-detection-on-whu-cd?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/image-classification-on-resisc45)](https://paperswithcode.com/sota/image-classification-on-resisc45?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/oriented-object-detection-on-dota-1-5)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-5?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/semantic-segmentation-on-uavid)](https://paperswithcode.com/sota/semantic-segmentation-on-uavid?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/object-detection-in-aerial-images-on-dior-r)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dior-r?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/oriented-object-detection-on-dota-1-0)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-0?p=lwganet-a-lightweight-group-attention)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lwganet-a-lightweight-group-attention/semantic-segmentation-on-loveda)](https://paperswithcode.com/sota/semantic-segmentation-on-loveda?p=lwganet-a-lightweight-group-attention)
+## News 🆕
+- **2025.07.11** Congratulations! Our paper "LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention" has been accepted by [AAAI 2026 (Oral)](https://openaccess.thecvf.com/content/AAAI2026/). 🔥
+
+- **2025.01.17** Update LEGNet original-version paper in [Arxiv](https://arxiv.org/abs/2501.10040). The new code, models and results are uploaded. 🎈
 
 
 
@@ -79,9 +77,33 @@ Imagenet 300-epoch pre-trained LWGANet-L2 backbone: [Download](https://github.co
 
 ----
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lwCVer/LWGANet&type=date&legend=top-left)](https://www.star-history.com/#lwCVer/LWGANet&type=date&legend=top-left)
+
+
 ## Acknowledgement
 This repository is built using the [timm](https://github.com/rwightman/pytorch-image-models), [mmrotate](https://github.com/open-mmlab/mmrotate),   [unetformer](https://github.com/WangLibo1995/GeoSeg), [A2Net](https://github.com/guanyuezhen/A2Net), and [CLAFA](https://github.com/xingronaldo/CLAFA) repositories.
 
 If you have any questions about this work, you can contact me. 
 
+Email: [luwei_ahu@qq.com](mailto:luwei_ahu@qq.com); WeChat: lw2858191255.
+
 Your star is the power that keeps us updating github.
+
+## Citation
+If LWGANet is useful or relevant to your research, please kindly recognize our contributions by citing our paper:
+```
+@inproceedings{lu2026lwganet,
+  title={LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention},
+  author={Lu, Wei and Yang, Xue and Chen, Si-Bao},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  pages={},
+  year={2026}
+}
+```
+
+## License
+Licensed under a [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) for Non-commercial use only. 
+Any commercial use should get formal permission first.
