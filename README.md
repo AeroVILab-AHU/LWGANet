@@ -17,6 +17,7 @@ class="center">
 ----
 
 ## News 🆕
+- **2025.11.10** We have updated the [appendix](figures/LWGANet_sup.pdf) of our paper. 🔥
 - **2025.11.08** Congratulations! Our paper "LWGANet: Addressing Spatial and Channel Redundancy in Remote Sensing Visual Tasks with Light-Weight Grouped Attention" has been accepted by [AAAI 2026 (Oral)](https://openaccess.thecvf.com/content/AAAI2026/). 🔥
 
 - **2025.01.17** Update LEGNet original-version paper in [Arxiv](https://arxiv.org/abs/2501.10040). The new code, models and results are uploaded. 🎈
